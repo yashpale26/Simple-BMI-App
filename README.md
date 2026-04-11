@@ -1,17 +1,59 @@
-# simple_bmi_app
+Simple BMI App ⚖️
+A sleek, responsive BMI (Body Mass Index) calculator built with Flutter. This app features dynamic UI changes based on user health metrics and utilizes the elegant Lobster Two typography for a premium look and feel.
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/7ad9b2f8-2154-4a80-bd2f-eb1c52dc1393" />
 
-A new Flutter project.
+✨ Key Features
+- Precise Input: Dual input fields for Height (Feet and Inches) and a dedicated field for Weight (kg).
+- Dynamic Backgrounds: The application UI changes color in real-time based on the BMI result:
+🔵 Blue: Underweight
+🟢 Green: Healthy / Normal
+🟡 Yellow/Orange: Overweight
+🔴 Red: Obese
+Instant Calculation: Get your BMI score and health category with a single tap.
+Clear Functionality: Reset all fields and UI states instantly with the "Clear" button.
+Custom Typography: Integrated Lobster Two Google Font for a distinct and modern aesthetic.
+🛠️ Tech Stack
+Framework: Flutter
+Language: Dart
+Fonts: Lobster Two
+🧮 Logic & Formulas
+The app converts height to total inches and then to meters to apply the standard BMI formula:
+$$BMI = \frac{weight(kg)}{height(m)^2}$$
+The background color is determined by the following logic:
+BMI < 18.5: Underweight
+18.5 – 24.9: Healthy
+25 – 29.9: Overweight
+> 30: Obese
+🚀 Installation & Setup
+Clone the project:
+Bash
+git clone https://github.com/[Your-Username]/Simple-BMI-App.git
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Add Fonts: Ensure your pubspec.yaml includes the Lobster Two font:
+YAML
+fonts:
+  - family: LobsterTwo
+    fonts:
+      - asset: assets/fonts/LobsterTwo-Regular.ttf
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Install Packages:
+Bash
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Launch:
+Bash
+flutter run
+
+
+🕹️ How to Use
+Enter your height in Feet and Inches.
+Enter your weight in Kilograms.
+Tap Calculate to see your BMI and watch the background color shift to reflect your health status.
+Tap Clear to start over.
+
+Author
+Yash Ganpat Pale
+Developing simple solutions for a healthier lifestyle.
