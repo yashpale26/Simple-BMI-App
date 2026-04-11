@@ -35,7 +35,7 @@ The background color is determined by the following logic:
 
 🚀 Installation & Setup
 1. Clone the project:
-git clone https://github.com/[Your-Username]/Simple-BMI-App.git
+git clone https://github.com/yashpale26/Simple-BMI-App.git
 
 2. Add Fonts: Ensure your pubspec.yaml includes the Lobster Two font:
 fonts:
