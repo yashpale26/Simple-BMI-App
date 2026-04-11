@@ -1,6 +1,10 @@
 Simple BMI App ⚖️
 A sleek, responsive BMI (Body Mass Index) calculator built with Flutter. This app features dynamic UI changes based on user health metrics and utilizes the elegant Lobster Two typography for a premium look and feel.
+
 <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/7ad9b2f8-2154-4a80-bd2f-eb1c52dc1393" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/967d8ff2-fba4-484b-b5e7-878e696390f9" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/83d12a40-ab59-44be-8559-8e60f0777292" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/c88914ab-494d-4f9f-8db7-b770d0213085" />
 
 ✨ Key Features
 - Precise Input: Dual input fields for Height (Feet and Inches) and a dedicated field for Weight (kg).
