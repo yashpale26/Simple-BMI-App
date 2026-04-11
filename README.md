@@ -28,40 +28,33 @@ A sleek, responsive BMI (Body Mass Index) calculator built with Flutter. This ap
   <img width="241" height="89" alt="image" src="https://github.com/user-attachments/assets/8f0b70dc-a229-4c91-a3d2-4435bb644cbf" />
 
 The background color is determined by the following logic:
-BMI < 18.5: Underweight
-18.5 – 24.9: Healthy
-25 – 29.9: Overweight
-> 30: Obese
+- BMI < 18.5: Underweight
+- 18.5 – 24.9: Healthy
+- 25 – 29.9: Overweight
+- > 30: Obese
+
 🚀 Installation & Setup
-Clone the project:
-Bash
+1. Clone the project:
 git clone https://github.com/[Your-Username]/Simple-BMI-App.git
 
-
-Add Fonts: Ensure your pubspec.yaml includes the Lobster Two font:
-YAML
+2. Add Fonts: Ensure your pubspec.yaml includes the Lobster Two font:
 fonts:
   - family: LobsterTwo
     fonts:
       - asset: assets/fonts/LobsterTwo-Regular.ttf
 
-
-Install Packages:
-Bash
+3. Install Packages:
 flutter pub get
 
-
-Launch:
-Bash
+4. Launch:
 flutter run
 
-
 🕹️ How to Use
-Enter your height in Feet and Inches.
-Enter your weight in Kilograms.
-Tap Calculate to see your BMI and watch the background color shift to reflect your health status.
-Tap Clear to start over.
+1. Enter your height in Feet and Inches.
+2. Enter your weight in Kilograms.
+3. Tap Calculate to see your BMI and watch the background color shift to reflect your health status.
+4. Tap Clear to start over.
 
 Author
-Yash Ganpat Pale
-Developing simple solutions for a healthier lifestyle.
+- Yash Pale
+- Developing simple solutions for a healthier lifestyle.
