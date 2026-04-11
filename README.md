@@ -9,20 +9,24 @@ A sleek, responsive BMI (Body Mass Index) calculator built with Flutter. This ap
 ✨ Key Features
 - Precise Input: Dual input fields for Height (Feet and Inches) and a dedicated field for Weight (kg).
 - Dynamic Backgrounds: The application UI changes color in real-time based on the BMI result:
-🔵 Blue: Underweight
-🟢 Green: Healthy / Normal
-🟡 Yellow/Orange: Overweight
-🔴 Red: Obese
-Instant Calculation: Get your BMI score and health category with a single tap.
-Clear Functionality: Reset all fields and UI states instantly with the "Clear" button.
-Custom Typography: Integrated Lobster Two Google Font for a distinct and modern aesthetic.
+    🔵 Blue: Underweight
+    🟢 Green: Healthy / Normal
+    🟡 Yellow/Orange: Overweight
+    🔴 Red: Obese
+- Instant Calculation: Get your BMI score and health category with a single tap.
+- Clear Functionality: Reset all fields and UI states instantly with the "Clear" button.
+- Custom Typography: Integrated Lobster Two Google Font for a distinct and modern aesthetic.
+
 🛠️ Tech Stack
-Framework: Flutter
-Language: Dart
-Fonts: Lobster Two
+- Framework: Flutter
+- Language: Dart
+- Fonts: Lobster Two
+
 🧮 Logic & Formulas
-The app converts height to total inches and then to meters to apply the standard BMI formula:
-$$BMI = \frac{weight(kg)}{height(m)^2}$$
+- The app converts height to total inches and then to meters to apply the standard BMI formula:
+
+  <img width="241" height="89" alt="image" src="https://github.com/user-attachments/assets/8f0b70dc-a229-4c91-a3d2-4435bb644cbf" />
+
 The background color is determined by the following logic:
 BMI < 18.5: Underweight
 18.5 – 24.9: Healthy
